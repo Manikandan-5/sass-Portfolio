@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.body{
+  background: black;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navtext{
+  font-size: 20px;
+  transition: font-size 10000s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navtext:hover
+{
+  font-size:20px;
+}
+.about-img{
+  box-shadow: 0 0 25px #00ffee;
+  margin-top:20px ;
+}
+.btn{
+  padding-right: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00ffee;
+  margin:30px ;
+  font-weight: 500 !important;
+}
+.btn:hover{
+  box-shadow: 0 0 30px #00ffee;
+}
+span{
+  text-shadow: 0 0 20px #00ffee;
+}
+
+.input-box{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
+  margin: 10px auto;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.input-box input,textarea{
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: black;
+  color: rgb(245, 245, 245);
+  border: 2px solid #00ffee;
+  resize: none;
+}
+.inner_skill{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  gap: 6px;
+}
+.inner_skill :hover{
+  box-shadow: 0 0 30px #00ffee;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+
+.inner_img{
+  border: 2px solid red;
+}
+.inner_img img{
+  height: 100%;
+  width:100%;
+}
+
+.cards{
+  transition: 0.4s ease-in-out;
+}
+.cards:hover{
+  border: 3px solid #00ffee;
+  transform: translateY(-10px)scale(1.03);
+  box-shadow: 0 0 50px #00ffee;
+}
+
+
+
+
+
+@media (min-width:357px)  and (max-width:767px) {
+  .project{
+   margin-left: 10% !important;
   }
 }
