@@ -13,11 +13,11 @@ const Footer = () => {
           <input type="email" name='email' placeholder='Email ID'required/>
           <input type='number' name='number' placeholder='Phone Number'required/>
          <textarea name='text-area'  placeholder='text here...'/>
-         <Button type='submit' className='btn btn-info p-3 inner-btn'>Send Message</Button> 
+       <a href="https://mail.google.com/mail/u/0/#search/merndev05%40gmail.com"target='_blank' ></a>  <Button type='submit' className='btn btn-info p-3 inner-btn'>Send Message</Button> 
         </div>
       </form>
         <footer>
-          <h6 className='text-white text-center mt-4 pb-4'>© Manikandan || All Rights Reserved</h6>
+          <h6 className='text-white text-center mt-4 pb-4'>© Manikandan || All Rights Reserved </h6>
         </footer>
         <div>
 

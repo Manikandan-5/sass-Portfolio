@@ -13,7 +13,7 @@ export const About = () => {
         <p className='text-white'>MERN Stack Developer with a passion for building dynamic and 
         responsive web appilaction.Possess a strong Foundation in both 
         <span className='text-info'>CLIENT</span> and <span className='text-info'>SERVER </span>Development</p>
-    <a href="https://merndev05@gmail.com"> <Button className='bg-info text-black '>Hire</Button></a>
+    <a href="https://mail.google.com/mail/u/0/#search/merndev05%40gmail.com" target='_blank' > <Button className='bg-info text-black '>Hire</Button></a>
      <a href="https://github.com/Merndev0"> <Button variant="outline-info">Github</Button> </a>
       </Col>
       <Col lg={6} md={6} className='mt-5 mb-5'>
