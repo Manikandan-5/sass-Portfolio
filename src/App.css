@@ -1,6 +1,11 @@
+
 .body{
   background: black;
   height: 100%;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .logo{
@@ -85,7 +90,9 @@ span{
   box-shadow: 0 0 50px #00ffee;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 

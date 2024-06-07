@@ -10,11 +10,11 @@ function Home() {
         <Navbar.Toggle aria-controls="basic-navbar-nav " className='bg-info'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-info">
-          <Nav.Link href="#home"className="navtext text-info">Home</Nav.Link>
-            <Nav.Link href="#About"className="navtext text-info">About me</Nav.Link>
-            <Nav.Link href="#skills"className="navtext text-info">Skills</Nav.Link>
-            <Nav.Link href="#project"className="navtext text-info">Projects</Nav.Link>
-            <Nav.Link href="#contact"className="navtext text-info">Contact Me</Nav.Link>
+          <Nav.Link href="/"className="navtext text-info">Home</Nav.Link>
+            <Nav.Link href="/#About"className="navtext text-info">About me</Nav.Link>
+            <Nav.Link href="/#skills"className="navtext text-info">Skills</Nav.Link>
+            <Nav.Link href="/#project"className="navtext text-info">Projects</Nav.Link>
+            <Nav.Link href="/#contact"className="navtext text-info">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

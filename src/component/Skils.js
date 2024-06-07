@@ -8,11 +8,7 @@ const Skils = () => {
     <>
     <Container>
         <Row>
-            {/* <Col lg={3} md={3} className='text-center'>
-            <div className='inner_img'>
-        <img src={require('./assets/Teach.png')}alt="img" />
-        </div>
-            </Col> */}
+            
             <Col lg={6} md={6}>
             <section id='About'>
 

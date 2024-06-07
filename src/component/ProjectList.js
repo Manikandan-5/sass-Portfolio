@@ -16,7 +16,7 @@ const ProjectList = ({project}) => {
       <ListGroup className="list-group-flush">
         <ListGroup.Item>{project.technologies}</ListGroup.Item>
       </ListGroup>
-       <a target='_blank'  href={project.git} className='btn btn-info'>View Project</a>
+       <a target='_blank'  rel="noreferrer" href={project.git} className='btn btn-info'>View Project</a>
     </Card>
     </section>
 
