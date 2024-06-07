@@ -7,15 +7,17 @@
   font-weight: 800;
 }
 
-.navtext{
-  font-size: 20px;
-  transition: font-size 10000s;
+.navtext {
+  font-size: 1.1em;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+.navtext:hover { 
+  color:white !important;
+  background-color: #00ffee;
+  border-radius: 4px;
 }
 
-.navtext:hover
-{
-  font-size:20px;
-}
 .about-img{
   box-shadow: 0 0 25px #00ffee;
   margin-top:20px ;
@@ -88,7 +90,7 @@ span{
 
 
 @media (min-width:357px)  and (max-width:767px) {
-  .project{
+  #project{
    margin-left: 10% !important;
   }
 }

@@ -6,7 +6,7 @@ function Home() {
   return (
     <Navbar expand="lg">
       <Container className='mt-3'>
-        <Navbar.Brand href="#home" className='logo text-info position: fixed'>Manikandan</Navbar.Brand>
+        <Navbar.Brand href="#home" className='logo text-info'>Manikandan</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " className='bg-info'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-info">
