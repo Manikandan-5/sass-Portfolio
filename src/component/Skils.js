@@ -26,19 +26,19 @@ I have one year of Experience as a <span className='text-info'>Software Trainer 
 
             <div className="inner_skill  mt-5 mb-5">
             <h3><span class="badge bg-info text-white"> HTML</span></h3>
-        <h3><span class="badge bg-info text-white"> CSS</span></h3>
-        <h3><span class="badge bg-info text-white"> JAVASCRIPT</span></h3>
-        <h3><span class="badge bg-info text-white"> REACT JS</span></h3>
-        <h3><span class="badge bg-info text-white"> NODE JS</span></h3>
-        <h3><span class="badge bg-info text-white">EXPRESS JS</span></h3>
-        <h3><span class="badge bg-info text-white">MONGO DB</span></h3>
-        <h3><span class="badge bg-info text-white">C</span></h3>
-        <h3><span class="badge bg-info text-white">C++</span></h3>
-        <h3><span class="badge bg-info text-white"> PYTHON</span></h3>
-        <h3><span class="badge bg-info text-white">SQL</span></h3>
-        <h3><span class="badge bg-info text-white">API</span></h3>
-        <h3><span class="badge bg-info text-white">POST MAN</span></h3>
-        <h3><span class="badge bg-info text-white">GIT HUB</span></h3>
+        <h3><span className="badge bg-info text-white"> CSS</span></h3>
+        <h3><span className="badge bg-info text-white"> JAVASCRIPT</span></h3>
+        <h3><span className="badge bg-info text-white"> REACT JS</span></h3>
+        <h3><span className="badge bg-info text-white"> NODE JS</span></h3>
+        <h3><span className="badge bg-info text-white">EXPRESS JS</span></h3>
+        <h3><span className="badge bg-info text-white">MONGO DB</span></h3>
+        <h3><span className="badge bg-info text-white">C</span></h3>
+        <h3><span className="badge bg-info text-white">C++</span></h3>
+        <h3><span className="badge bg-info text-white"> PYTHON</span></h3>
+        <h3><span className="badge bg-info text-white">SQL</span></h3>
+        <h3><span className="badge bg-info text-white">API</span></h3>
+        <h3><span className="badge bg-info text-white">POST MAN</span></h3>
+        <h3><span className="badge bg-info text-white">GIT HUB</span></h3>
         </div>
         </section>
             </Col>

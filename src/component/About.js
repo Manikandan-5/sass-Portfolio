@@ -18,7 +18,7 @@ export const About = () => {
       </Col>
       <Col lg={6} md={6} className='mt-5 mb-5'>
       <div className="about-img">
-        <img src={require('../component/Full stack.gif') }  class="rounded img-fluid" alt='full-stack.gif'/>
+        <img src={require('../component/Full stack.gif') }  className="rounded img-fluid" alt='full-stack.gif'/>
         </div>
       </Col>
     </Row>
